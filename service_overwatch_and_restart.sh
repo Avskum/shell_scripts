@@ -9,7 +9,7 @@ touch $tmp && chmod 600 $tmp;
 #Set up the various headers for sendmail to use
 TO='linux@sys.ignum.cz';
 CC='';
-FROM='effingrobot@dpzconsulting3-vm1.cust.ignum.cz';
+FROM='effingrobot@server.cz';
 SUBJECT='spamd is slacking again';
 MIMEVersion='1.0';
 CONTENTType="text/html; charset=us-ascii";
