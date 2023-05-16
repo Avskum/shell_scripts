@@ -7,7 +7,7 @@ PROCESS="spamd";
 tmp=/tmp/mail-body-`date +%F`;
 touch $tmp && chmod 600 $tmp;
 #Set up the various headers for sendmail to use
-TO='linux@sys.ignum.cz';
+TO='linux@asd.cz';
 CC='';
 FROM='effingrobot@server.cz';
 SUBJECT='spamd is slacking again';
