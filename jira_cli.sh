@@ -72,8 +72,8 @@ echo "datetime: $datetime"
 
 
 
-project=A24PROBLEM
-email=api@websupport.sk
+project=PROJECT_NAME
+email=api@domain.com
 api_key=$(cat /etc/adm/jira_api_key)
 
 
